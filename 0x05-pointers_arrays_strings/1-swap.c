@@ -5,7 +5,7 @@
  * swap_int - Updates the value of the parameter to 98
  * @a: The value
  * @b: The value
- * Return: 0 on success
+ * Return: none
  */
 
 void swap_int(int *a, int *b)
