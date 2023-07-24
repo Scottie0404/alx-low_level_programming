@@ -2,13 +2,17 @@
 #include "main.h"
 
 /**
- * main - A swapping one
+ * swap_int - Updates the value of the parameter to 98
+ * @a: The value
+ * @b: The value
  * Return: 0 on success
  */
 
 void swap_int(int *a, int *b)
-{
-	swap_int(*a, *b);
+
+	a = 10;
+	b = 20;
+	swap_int(&*a, &*b);
 
 	return (0);
 }
