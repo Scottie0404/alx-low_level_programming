@@ -6,9 +6,9 @@
  * Return: 0 on success
  */
 
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
-	swap_int(&a, &b)
+	swap_int(&a, &b);
 
 	return (0);
 }
